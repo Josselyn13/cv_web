@@ -1,0 +1,64 @@
+:root {
+  --theme-color: white;
+  --primary-color: #124f88;
+  --secondary-color: #f7c331;
+  --text-color-inverse: white;
+  --text-color: black;
+  --navbar-shallow-color: #e5e5e5;
+  --menu-mobile-background-color: #3a4460;
+
+  --accent-color: var(--primary-color);
+  --primary-color-inverse: black;
+}
+
+/* :root {
+  --theme-color: #0f172a;
+  --primary-color: #243043;
+  --secondary-color: #9dc8db;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --text-color-inverse: var(--text-color);
+  --navbar-shallow-color: #e5e5e5;
+  --menu-mobile-background-color: #18213e;
+
+  --accent-color: var(--secondary-color);
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 70px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+  padding-top: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.horizontal-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.vertical-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 950px) {
+  .horizontal-padding {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .vertical-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}

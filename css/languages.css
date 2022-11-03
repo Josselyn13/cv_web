@@ -1,0 +1,42 @@
+/* LANGUE */
+.language-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+}
+
+#languages h3{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+#languages h5{
+    text-align: center;
+    color: #3E2D25;
+    font-weight: bold; 
+}
+#languages .language-badge{
+    color: rgba(0,0,0,0.175);
+    text-align: center;
+    position: relative;
+}
+#languages .heading h2{
+    color: #fff;
+    padding-top: 15px;
+}
+#languages .italian, .espagnol, .english{
+    
+    border-right: 1px solid #333;
+    text-align: center;
+    
+    
+}
+#languages .container{
+    border-bottom: 1px solid #333;
+    padding-bottom: 140px;
+    
+}
+
+

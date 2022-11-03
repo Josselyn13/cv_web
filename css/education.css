@@ -1,0 +1,56 @@
+
+.education-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+}
+.education-body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+  
+.education-block{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+.education-block h3{
+    color: var(--secondary-color);
+}
+
+.wave {
+    width: 100%;
+    position: relative;
+    top: 2px;
+}
+  
+.wave_bottom {
+    transform: scaleY(-1);
+    top: -2px;
+}
+
+.education-block h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.education-block h5{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.education-block p{
+    font-weight: bold;
+}
+.education-block .orange-divider{
+    margin-bottom: 20px;
+}
+
+
+
